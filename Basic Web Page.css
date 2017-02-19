@@ -1,0 +1,167 @@
+body {
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 40px;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+h2 {
+  background: #368cbb;
+  font-size: 85px;
+  float: left;
+  text-align: center;
+  margin: 49px 90px;
+  padding: 50px;
+}
+
+h3 {
+  font-size: 45px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0em;
+  padding-bottom: 1em;
+}
+
+h4 {
+   font-size: 25px;
+   margin-left: 3em;
+}
+
+p {
+  color: white;
+}
+
+ table {
+  font-size: xx-large;
+  font-weight: 500;
+  /* padding-left: 376px; */
+  text-align: center;
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  width: 30em;
+  margin-left: 1em;
+}
+
+thead, th {
+  background: #88CCF1;
+}
+
+thead, th, td {
+  border: solid thin white;
+  border-collapse: collapse;
+}
+
+tbody {
+  font-weight: 200;
+}
+
+p {
+  text-align:center;
+}
+
+li {
+  padding-bottom: 1em;
+}
+
+ul {
+  font-size: 1.2em;
+  padding-left: 7em;
+}
+
+#cityp {
+  padding-top: 2em;
+}
+
+.header {
+  display: inline-block;
+  border-bottom: solid thin white;
+  padding-bottom: 4em;
+}
+
+.myCityImage{
+  float: left;
+  width: 300px;
+  margin-right: 1em;
+}
+
+.myImage {
+  float: right;
+  width: 650px;
+  padding-bottom: 60px;
+}
+
+.languages {
+  display: block;
+  padding-left: 8em;
+  padding-bottom: 4em;
+  text-align: center;
+  border-bottom: solid thin white;
+}
+
+.city {
+  display: inline-block;
+  border-bottom: solid;
+  border-bottom-color: white;
+  border-bottom-width: thin;
+  padding-top: 0em;
+  padding-bottom: 5em;
+}
+
+.clocktower {
+  padding-bottom: 15em;
+}
+
+.clock_tower_image {
+  float:right;
+  width: 40%;
+  padding-left: 6em;
+  margin-right: 1em;
+  margin-top: -6em;
+  transform: rotate(90deg);
+}
+
+.swingbridge {
+  display: flex;
+  padding-bottom: 10em;
+}
+
+.swingbridge_image {
+  float: left;
+  height: 64%;
+  width: 90%;
+}
+
+#title_float_right {
+  float:right;
+  margin-right: 16em;
+}
+
+#list_float_right {
+  float:right;
+  margin-top: 5em;
+  margin-right: -28em;
+  margin-left: 4em;
+}
+
+.time_ball_tower {
+  
+}
+
+.time_ball_tower_image {
+  float: right;
+  width: 44%;
+  padding-right: 5em;
+  margin-right: 9em;
+  margin-top: -9em;
+  padding-bottom: 17em;
+  transform: rotate(90deg)
+}
+
+#historicalh3 {
+  padding-bottom: 2em;
+}
