@@ -1,0 +1,41 @@
+body {
+  font-family: Lato;
+  background-color: grey;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.numPlateDiv {
+  margin: 3em 28em 3em 28em;
+  padding-top: 0em;
+  /* position: relative; */
+  background-color: yellow;
+  border: solid black 10px;
+  border-radius: 15px;
+  padding: 2em;
+  /* font-stretch: condensed; */
+  /* font-size: 15px;*/
+}
+
+#inputRegNumDiv {
+  margin: 1em;
+}
+
+#iRegNum {
+  background-color: #616060;
+  color: whitesmoke;
+  border-color: yellow;
+}
+
+#submitButton {
+  background-color: yellow;
+  border-color: black;
+  border-radius: 5px;
+}
+
+#oRegNum {
+  font-size: -webkit-xxx-large;
+}
