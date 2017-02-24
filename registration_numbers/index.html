@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   </head>
   <body>
-    <h1> Input your registration number below </h1>
-    <!-- user inputs registration number -->
-    <!-- user submits input by clicking on "Submit" button -->
-    <div id="inputRegNumDiv">
-      <input id="iRegNum" type="text" name="iRegNum">
-      <input id="submitButton" type="button" name="submitButton" value="Submit">
-    </div>
-    <!-- Number plate div !-->
-    <div class="numPlateDiv">
-      <div id="oRegNum">
+    <div class="wrapper">
+      <header>
+        <h1> Input your registration number below </h1>
+        <!-- user inputs registration number -->
+        <!-- user submits input by clicking on "Submit" button -->
+        <form id="regNumForm">
+          <input type="text" name="regNum" placeholder="Enter Registration Number">
+          <button type"submit" name="submitButton" value="submit">Submit</button>
+        </form>
+      </header>
+
+      <!-- Number plate div !-->
+      <div class="main">
+        <h2>Your Registration Numbers</h2>
+        <ul id="oRegNums"></ul>
       </div>
     </div>
-
 
     <script src="registration_numbers.js">
 

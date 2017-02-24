@@ -1,9 +1,14 @@
-// Select the elements
-const iRegNum = document.querySelector("#iRegNum");
-const oRegNum = document.querySelector("#oRegNum");
-const submitButton = document.querySelector("#submitButton");
+const form = document.getElementById('regNumForm');
+const input = form.querySelector('input');
 
-// When submit button click event fires, display the iRegNum
-submitButton.addEventListener("click", function(event){
-  oRegNum.innerHTML = iRegNum.value;
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const oRegNum = input.value;
+  input.value = "";
+  if(oRegNum !== ""){
+    const ul = document.getElementById('oRegNums');
+    const li = document.createElement('li');
+    li.textContent = oRegNum;
+    ul.appendChild(li);
+  }
 });
