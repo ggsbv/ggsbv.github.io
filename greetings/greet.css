@@ -46,6 +46,7 @@ h1 {
   font-weight: bold;
   border-radius: 7px;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .io {
@@ -64,14 +65,14 @@ input#iName {
   font-size: 2em;
   /* border: solid whitesmoke; */
   /* border-radius: 11px; */
-  margin: 0em 0em 0em;
+  margin: 0.1em 0em 0em 0em;
   background-color: rgba(134, 129, 129, 0.74);
   color: whitesmoke;
   padding-top: 11px;
   padding-right: 3px;
   font-weight: 600;
   font-size: 4em;
-  padding-top: 22px;
+  padding-top: 25px;
 }
 
 #totalGreetings {
@@ -102,4 +103,9 @@ input#iName {
 .language {
   padding: 0em 3.5em 2em 0em;
   margin: 0;
+}
+
+#greetReset {
+  border-radius: 4px;
+  margin-bottom: 1em;
 }
