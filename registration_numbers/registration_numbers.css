@@ -4,8 +4,16 @@ body {
   text-align: center;
 }
 
+header {
+
+}
+
 h1 {
   text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 ul {
@@ -27,6 +35,10 @@ li {
   list-style-type: none;
 }
 
+p {
+
+}
+
 #inputRegNumDiv {
   margin: 1em;
 }
@@ -44,6 +56,15 @@ button {
   border-radius: 5px;
 }
 
+select {
+  margin-top: 1.3em;
+  margin-left: 1em;
+}
+
 #oRegNum {
   font-size: -webkit-xxx-large;
+}
+
+#fromTown {
+  display: -webkit-inline-box;
 }
