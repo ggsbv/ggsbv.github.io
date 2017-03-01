@@ -7,7 +7,7 @@ const ul = document.getElementById('oRegNums');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  const oRegNum = input.value;
+  const oRegNum = input.value.toUpperCase();
   input.value = "";
   if(oRegNum !== ""){
     const li = document.createElement('li');
